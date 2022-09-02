@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="header-container">
+  <h1 id="app-title">Welcome to Catbook</h1>
+  <div style="background: gray">
+    This is a social media platform where you can follow a large variety of cats you find interesting.
+    The cat (<em>Felis catus</em>) is a domestic species of small carnivorous mammal. It is the only domesticated
+    species in the
+    family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.
+    A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact.
+  </div>
+</div>
+
+<div class="base-container">
+  <div class="profile-container">
+    <grid-card
+      profile-name="Tabby Cat"
+      image-url="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+      background-url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+      description="My goal is to revolutionize people's lives through art, technology and entertainment"
+    >
+    </grid-card>
+    <grid-card
+      profile-name="Grey Tabby Cat"
+      image-url="https://images.unsplash.com/photo-1490650034439-fd184c3c86a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      background-url="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+      description="I'm a tie-loathing adventurer and thrill-seeker"
+    >
+    </grid-card>
+    <grid-card
+      profile-name="Orange Cat"
+      image-url="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+      background-url="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdW50YWluc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      description="I don't call 'meetings' 'meetings' - they're 'doings'"
+    >
+    </grid-card>
+    <grid-card
+      profile-name="Bombay Cat"
+      image-url="https://images.unsplash.com/photo-1565560681116-2d88287ff472?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"
+      background-url="https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW91bnRhaW5zfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      description="A lie is just a great story ruined by truth"
+    >
+    </grid-card>
+    <grid-card
+      profile-name="Black Cat"
+      image-url="https://images.unsplash.com/photo-1615903629900-be1d6190c5a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1092&q=80"
+      background-url="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      description="Chaos, panic & disorder – my work is done"
+    >
+    </grid-card>
+    <grid-card
+      profile-name="Persian Cat"
+      image-url="https://images.unsplash.com/photo-1578110927497-055e642f1ff4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGNhdHxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      background-url="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bnRhaW5zfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+      description="Error 404, Bio Not Found!">
+    </grid-card>
+  </div>
+
+  <div class="block-container">
+    <h2>How to become a member</h2>
+    <ol>
+      <li>Fill in the details (Your cat has to be at least 1 years old)</li>
+      <li>Confirm your email</li>
+    </ol>
+
+    <div class="registration-form-container">
+      <form id="registration-form" action="https://www.w3schools.com/action_page.php">
+        <label>Name:<br/>
+          <input name="name" class="form-input-field" required/>
+        </label>
+        <br/>
+        <label>Age:<br/>
+          <input id="registration-form-age" name="age" class="form-input-field" required/>
+        </label>
+        <div id="registration-form-age-error">Age must be a whole number greater than 0</div>
+        <br/>
+        <label>Description: <br/>
+          <textarea name="description" class="form-textarea-field"></textarea>
+        </label>
+        <br/>
+        <input id="registration-submit" type="submit" value="Register" class="base-button">
+      </form>
+    </div>
+
+  </div>
+
+  <div class="block-container">
+    <h3 id="fact-title">Fun facts about cats</h3>
+    <ul>
+      <li>Cats have excellent night vision and can see at only one-sixth the light level required for human vision.</li>
+      <li>The domestic cat's hearing is most acute in the range of 500 Hz to 32 kHz. It can detect an extremely
+        broad range of frequencies ranging from 55 Hz to 79,000 Hz.
+        It can hear a range of 10.5 octaves, while humans and dogs can hear ranges of about 9 octaves.
+      </li>
+      <li>Cats have an acute sense of smell, due in part to their well-developed olfactory bulb and a large surface of
+        olfactory mucosa, about 5.8 square centimetres (29 ⁄ 32 square inch) in area, which is about twice that of
+        humans.
+      </li>
+      <li id="fact4">Cats have relatively few taste buds compared to humans (<strong>470</strong> or so versus <strong>more
+        than
+        9,000</strong> on the human
+        tongue).
+      </li>
+      <li id="fact5">
+        To aid with navigation and sensation, cats have dozens of movable whiskers (vibrissae) <strong>over their
+        body</strong>,
+        especially their faces.
+        These provide information on the width of gaps and on the location of objects in the dark, both by touching
+        objects directly and by sensing air currents
+      </li>
+    </ul>
+    <button id="show-more-btn" class="base-button info" onclick="showFacts()">Show more</button>
+  </div>
+</div>
+
+<footer class="footer-container">
+  Copyright © 2022 r6q
+</footer>
+
+<script src="card.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
